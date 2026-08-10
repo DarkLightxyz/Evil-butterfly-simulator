@@ -1,0 +1,40 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+/* Bordered form */
+form {
+    border: 3px solid #4f0909;
+    padding: 12px;
+    margin:auto;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px rgb(91, 4, 4);
+    border-style: solid;
+    box-sizing: border-box;
+}
+input:hover[type="text"], input:hover[type="password"]{
+    background-color: #ebe5eb;
+}
+/* Set a style for all buttons */
+button {
+    background-color: #510f0f;
+    color: rgb(6, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+/* Add padding to containers */
+.container {
+    width: 300px;
+    padding: 16px;
+    margin:auto;
+}
